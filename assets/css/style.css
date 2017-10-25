@@ -1,0 +1,33 @@
+/*Container for the images */
+.imageContainer{
+    left: 25%;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    border: solid;
+    align-items: center;
+}
+/*Images*/
+.image{
+    width: 100%;
+    height: 100%;
+}
+/* Dot conatiner*/
+.dotContainer{
+    text-align: center;
+}
+
+/* The dots/bullets */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: darkgray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* When active & on hover, add a black background color */
+.active, .dot:hover {
+  background-color: dimgray;
+}
